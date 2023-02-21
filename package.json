@@ -3,10 +3,30 @@
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
     "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "express-handlebars": "^6.0.7",
     "express-session": "^1.17.3",
     "mysql2": "^3.1.2",
-    "sequelize": "^6.28.1",
-    "sqlite3": "^5.1.4"
-  }
+    "sequelize": "^6.28.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "tech-blog",
+  "description": "## Description ### A site where developers can publish their blog posts and read and comment on other developers' posts as well.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrgssg/tech-blog.git"
+  },
+  "keywords": [
+    "tech"
+  ],
+  "author": "Mark Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrgssg/tech-blog/issues"
+  },
+  "homepage": "https://github.com/mrgssg/tech-blog#readme"
 }
