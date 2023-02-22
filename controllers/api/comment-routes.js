@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
 
 // routes to: get a comment
 router.get('/:id', (req, res) => {
-    Comment.findAll({
+    Comment.findOne({
         where: {
             id: req.params.id}
     })
