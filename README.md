@@ -16,7 +16,7 @@
 <br>
 
 ## Technology
-### MySQL2 and sequelize to connect to the MySQL database, the dotenv package to use environment variables, the bcrypt package to hash passwords, and  express-sessionLinks to an external site. and the express session and connect-session-sequelize to add authentication.
+### MySQL2 and sequelize used to connect to the MySQL database, the dotenv package to use environment variables, the bcrypt package is used to hash passwords, and  express-session and connect-session-sequelize are used to add authentication.
 
 
 <br>
