@@ -1,0 +1,13 @@
+<div class="comments">
+    {{#each this}}
+        <section class="comment">
+            <div class="text">
+            <div class="meta">
+                {{user.username}}, {{format_date created_at}}
+            </div>
+            {{comment_text}}
+        </section>
+    </div>
+  {{/each}}
+</div>
+
